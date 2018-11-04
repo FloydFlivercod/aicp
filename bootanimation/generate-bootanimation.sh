@@ -30,7 +30,7 @@ fi
 
 RESOLUTION=""$IMAGESIZE"x"$IMAGESIZE""
 
-for part_cnt in 1 2 3
+for part_cnt in 0 1
 do
     mkdir -p $ANDROID_PRODUCT_OUT/obj/BOOTANIMATION/bootanimation/part$part_cnt
 done
